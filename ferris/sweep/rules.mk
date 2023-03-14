@@ -1,0 +1,24 @@
+# Bootloader selection
+BOOTLOADER = rp2040
+
+MOUSEKEY_ENABLE        = yes
+VIA_ENABLE             = yes
+VIAL_ENABLE            = yes
+COMBO_ENABLE           = yes
+RGBLIGHT_ENABLE        = no
+RGB_MATRIX_ENABLE      = no
+AUTO_SHIFT_ENABLE      = no
+OLED_ENABLE            = no
+BOOTMAGIC_ENABLE       = yes
+LTO_ENABLE             = no
+TAP_DANCE_ENABLE       = yes
+KEY_OVERRIDE_ENABLE    = no
+CAPS_WORD_ENABLE       = yes
+EXTRAKEY_ENABLE	       = yes
+NKRO_ENABLE            = yes
+CONSOLE_ENABLE         = no
+COMMAND_ENABLE         = no
+SPACE_CADET_ENABLE     = no
+GRAVE_ESC_ENABLE       = no
+MUSIC_ENABLE           = no
+MAGIC_ENABLE           = no
