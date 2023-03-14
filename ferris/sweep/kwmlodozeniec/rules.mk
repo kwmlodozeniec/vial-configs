@@ -1,5 +1,6 @@
 # Bootloader selection
 BOOTLOADER = rp2040
+CONVERT_TO = kb2040
 
 MOUSEKEY_ENABLE        = yes
 VIA_ENABLE             = yes
