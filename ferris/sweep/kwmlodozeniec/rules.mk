@@ -23,3 +23,4 @@ SPACE_CADET_ENABLE     = no
 GRAVE_ESC_ENABLE       = no
 MUSIC_ENABLE           = no
 MAGIC_ENABLE           = no
+NO_USB_STARTUP_CHECK   = yes
