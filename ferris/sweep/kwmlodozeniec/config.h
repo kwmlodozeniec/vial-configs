@@ -17,7 +17,6 @@
 #define VIAL_COMBO_ENTRIES 16
 
 // Config to make MOD TAP keys more responsive
-#define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISIVE_HOLD
 
 // Disable some of the features that we do not use to save space
