@@ -391,7 +391,7 @@
     "via_protocol": 9,
     "tap_dance": [
         [
-            "CW_TOGG",
+            "0x7c73",
             "KC_NO",
             "KC_CAPSLOCK",
             "KC_NO",
