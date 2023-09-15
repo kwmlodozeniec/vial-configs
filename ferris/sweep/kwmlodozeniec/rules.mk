@@ -1,6 +1,5 @@
 # Bootloader selection
-BOOTLOADER = rp2040
-CONVERT_TO = kb2040
+BOOTLOADER = atmel-dfu
 
 MOUSEKEY_ENABLE        = yes
 VIA_ENABLE             = yes
@@ -11,7 +10,7 @@ RGB_MATRIX_ENABLE      = no
 AUTO_SHIFT_ENABLE      = no
 OLED_ENABLE            = no
 BOOTMAGIC_ENABLE       = yes
-LTO_ENABLE             = no
+LTO_ENABLE             = yes
 TAP_DANCE_ENABLE       = yes
 KEY_OVERRIDE_ENABLE    = no
 CAPS_WORD_ENABLE       = yes
