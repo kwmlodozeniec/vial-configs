@@ -39,6 +39,7 @@ qmk compile -kb crkbd/r2g -km kwmlodozeniec
 qmk compile -kb crkbd/rev1 -km kwmlodozeniec
 qmk compile -kb crkbd/rev1 -km kwmlodozeniec -e CONVERT_TO=kb2040
 qmk compile -kb ferris/sweep -km kwmlodozeniec
+qmk compile -kb ferris/sweep -km kwmlodozeniec -e CONVERT_TO=kb2040
 cd ..
 
 # Copy firmware out of build directory
