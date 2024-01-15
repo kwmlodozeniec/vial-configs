@@ -252,8 +252,8 @@
             [
                 "KC_NO",
                 "KC_NO",
-                "KC_WH_L",
-                "KC_WH_R",
+                "LSFT(KC_WH_U)",
+                "LSFT(KC_WH_D)",
                 "KC_WH_D"
             ],
             [
