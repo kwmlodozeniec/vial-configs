@@ -3,7 +3,6 @@ name: KWM Keyboards
 on:
   push:
     paths:
-      - "crkbd/**"
       - "ferris/**"
 
 jobs:
@@ -27,7 +26,6 @@ jobs:
 
       - name: Copy keymaps to relevant directories
         run: |
-          cp --recursive main/crkbd/kwmlodozeniec vial-qmk/keyboards/crkbd/keymaps/
           cp --recursive main/ferris/sweep/kwmlodozeniec vial-qmk/keyboards/ferris/sweep/keymaps/
 
       - name: Verify Vial UID is unique
@@ -38,9 +36,6 @@ jobs:
       - name: Build firmware
         run: |
           cd vial-qmk
-          qmk compile -kb crkbd/r2g -km kwmlodozeniec
-          qmk compile -kb crkbd/rev1 -km kwmlodozeniec
-          qmk compile -kb crkbd/rev1 -km kwmlodozeniec -e CONVERT_TO=kb2040
           qmk compile -kb ferris/sweep -km kwmlodozeniec
           qmk compile -kb ferris/sweep -km kwmlodozeniec -e CONVERT_TO=kb2040
 
