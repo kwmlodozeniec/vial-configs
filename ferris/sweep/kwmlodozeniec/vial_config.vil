@@ -76,10 +76,10 @@
                 "OSM(MOD_HYPR)"
             ],
             [
-                "KC_NO",
+                "OSM(MOD_LGUI)",
                 "OSM(MOD_RALT)",
-                "KC_NO",
-                "KC_NO",
+                "OSM(MOD_LCTL)",
+                "OSM(MOD_LSFT)",
                 "KC_NO"
             ],
             [
