@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "ferris/**"
+      - ".github/**"
 
 jobs:
   build:
@@ -40,9 +41,9 @@ jobs:
           qmk compile -kb ferris/sweep -km kwmlodozeniec -e CONVERT_TO=kb2040
 
       - name: Save firmware files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: firmware-files
           path: |
-            ./vial-qmk/.build/*.hex
-            ./vial-qmk/.build/*.uf2
+            **/*kwmlodozeniec*.hex
+            **/*kwmlodozeniec*.uf2
